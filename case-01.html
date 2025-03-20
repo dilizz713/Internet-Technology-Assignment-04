@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="lib/normalize.css">
+    <link rel="stylesheet" href="lib/fontawesome-free-6.7.2-web/css/all.min.css">
+    <style>
+        nav{
+            position: absolute;
+            height: fit-content;
+            top: 0;
+            bottom: 0;
+            margin: auto;
+        }
+        nav > div {
+            background: rebeccapurple;
+            display: flex;
+            justify-content: space-between;
+            width: 200px;
+            margin-bottom: 20px;
+            margin-top: 10px;
+            padding: 10px;
+            font-size: 20px;
+             margin-left: -170px;
+
+        }
+        nav > div > div{
+            color: white;
+        }
+        nav > div:hover {
+            margin-left: 0;
+            transition-duration: 2s;
+        }
+
+        .icon {
+            color: white;
+        }
+
+
+    </style>
+</head>
+<body>
+
+<nav>
+    <div>
+        <div>Menu One</div>
+        <div><i class="fa-solid fa-user icon"></i></div>
+    </div>
+
+    <div>
+        <div>Menu Two</div>
+        <div><i class="fa-solid fa-truck icon"></i></div>
+    </div>
+
+    <div>
+        <div>Menu Three</div>
+        <div><i class="fa-solid fa-globe icon"></i></div>
+    </div>
+
+    <div>
+        <div>Menu Four</div>
+        <div><i class="fa-solid fa-file icon"></i></div>
+    </div>
+
+    <div>
+        <div>Menu Five</div>
+        <div><i class="fa-solid fa-cart-plus icon"></i></div>
+    </div>
+</nav>
+
+<script src="lib/fontawesome-free-6.7.2-web/js/all.min.js"></script>
+</body>
+</html>

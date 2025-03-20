@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        div{
+            position: absolute;
+            top:0;
+            left:0;
+            right:0;
+            bottom:0;
+            margin:auto;
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            border: 1px solid red;
+
+            animation-name: circle;
+            animation-duration: 2s;
+
+            animation-iteration-count: infinite;
+            animation-timing-function: ease-in-out;
+
+        }
+        @keyframes circle {
+            from{
+                opacity: 1;
+            }
+            to{
+                width: 200px;
+                height: 200px;
+                opacity: 0;
+
+            }
+
+        }
+    </style>
+</head>
+<body>
+<div></div>
+
+</body>
+</html>
